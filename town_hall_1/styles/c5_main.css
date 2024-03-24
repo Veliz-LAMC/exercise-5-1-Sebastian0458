@@ -10,13 +10,14 @@
 
 /* the styles for the elements */
 body {
-	width: 600px;
-	margins: 0 auto;
-	border: 3px solid #931420;
-	background-color: #fffded;
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin-left: 10px;
+    width: 600px;
+    margins: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffded;
+    
 }
 /* set HTML background color */
 html{
