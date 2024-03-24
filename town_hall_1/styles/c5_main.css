@@ -2,6 +2,11 @@
 :root {
 	--global-color-1: #800000;
 }
+/* the reset selector */
+* {
+	margin: 0;
+	padding: 0;
+}	
 
 /* the styles for the elements */
 body {
@@ -13,22 +18,31 @@ body {
     font-size: 100%;
     margin-left: 10px;
 }
+/* set HTML background color */
+html{
+	background-color: white;
+}	
 a:focus, a:hover {
 	font-style: italic;
 }
 /* the styles for the header */
+header{ 
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80% );
+	border-bottom: 3px solid #931420;    
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}	
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
-	text-indent: 30px;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 header img {
 	float: left;
+	padding: 0px 30px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
@@ -36,8 +50,11 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding: 0px 30px;
 }
 main h1 {
+	border-top: 3px #931420;
+	border-bottom: 3px #931420;
 	font-size: 150%;
 	padding: .3em 0;
 }
@@ -68,7 +85,11 @@ main li {
 }
 
 /* the styles for the footer */
+footer{
+	background-color: #931420;
+}	
 footer p {
+	color: white;
 	text-align: center;
 	padding: 1em 0;
 }
